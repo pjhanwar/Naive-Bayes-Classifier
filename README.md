@@ -7,10 +7,10 @@ A Naive Bayes classifier to identify hotel reviews as either true or fake, and e
 ## Data
 A set of training and development data is uploaded contatining the following files:
 
-1) train-labeled.txt containing labeled training data with a single training instance (hotel review) per line (total 960 lines). The first 3 tokens in each line are:
-  a) unique 7-character alphanumeric identifier
-  b) label True or Fake
-  c) label Pos or Neg
+1) train-labeled.txt containing labeled training data with a single training instance (hotel review) per line (total 960 lines). The first 3 tokens in each line are:<br>
+  a) unique 7-character alphanumeric identifier<br>
+  b) label True or Fake<br>
+  c) label Pos or Neg<br>
   These are followed by the text of the review.
   
 2) dev-text.txt with unlabeled development data, containing just the unique identifier followed by the text of the review (total 320 lines).
