@@ -2,7 +2,7 @@
 A Naive Bayes classifier for categorizing Hotel Reviews as True/Fake and Positive/Negative
 
 ## Overview
-A naive Bayes classifier to identify hotel reviews as either true or fake, and either positive or negative using the word tokens as features for classification.
+A Naive Bayes classifier to identify hotel reviews as either true or fake, and either positive or negative using the word tokens as features for classification.
 
 ## Data
 A set of training and development data is uploaded contatining the following files:
@@ -33,17 +33,17 @@ The classification program will be invoked in the following way:
 The argument is a single file containing the test data file; the program reads the parameters of a naive Bayes model from the file nbmodel.txt, classify each entry in the test data, and writes the results to a text file called nboutput.txt in the same format as the answer key (dev-key.txt).
 
 ## Results on test data
-Neg 0.94 0.94 0.94
-True 0.88 0.84 0.86
-Pos 0.94 0.94 0.94
-Fake 0.85 0.89 0.87
-Mean F1: 0.9031
+Neg 0.94 0.94 0.94 <br>
+True 0.88 0.84 0.86 <br>
+Pos 0.94 0.94 0.94 <br>
+Fake 0.85 0.89 0.87 <br>
+Mean F1: 0.9031 <br> <br>
 
-{
-'Neg': {'fp': 9, 'fn': 9, 'tp': 151}, 
-'True': {'fp': 18, 'fn': 26, 'tp': 134}, 
-'Pos': {'fp': 9, 'fn': 9, 'tp': 151}, 
-'Fake': {'fp': 26, 'fn': 18, 'tp': 142}
+{<br>
+'Neg': {'fp': 9, 'fn': 9, 'tp': 151}, <br>
+'True': {'fp': 18, 'fn': 26, 'tp': 134}, <br>
+'Pos': {'fp': 9, 'fn': 9, 'tp': 151}, <br>
+'Fake': {'fp': 26, 'fn': 18, 'tp': 142} <br>
 }
 
 ## Accuracy
